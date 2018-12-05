@@ -77,5 +77,6 @@
             @yield('content')
         </main>
     </div>
+    @extends('layouts.footer')
 </body>
 </html>

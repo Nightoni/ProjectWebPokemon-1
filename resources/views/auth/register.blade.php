@@ -55,9 +55,11 @@
                                 <input id="password-confirm" type="password" placeholder="CONFIRMATION" class="form-control" name="password_confirmation" required>
                         </div>
                         <div class="form-bottom">
+                            <div class="form-info">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Enregistrer') }}
                                 </button>
+                            </div>
                         </div>
                         
                     </form>

@@ -11,6 +11,7 @@
 			<!-- Header -->
 				<div id="header-wrapper">
 					<div class="container">
+
 						<!-- Header -->
 							<header id="header">
 								<div class="inner">
@@ -153,6 +154,7 @@
 							</div>
 					</div>
 				</div>
+
 			<!-- Main Wrapper -->
 				<div id="main-wrapper">						
 					<div class="wrapper style3">
@@ -182,7 +184,7 @@
 														<div>
 															<header>
 																<span class="date">25 NOV.</span>
-																<h3><a href="#">Un millier d'inscrits. Merci à vous</a></h3>
+																<h3><a href="#">Un millier d'inscrit. Merci à vous</a></h3>
 															</header>
 															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
 															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
