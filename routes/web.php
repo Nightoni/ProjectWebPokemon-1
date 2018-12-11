@@ -44,7 +44,7 @@ Route::get('/pk/fo', function () {
     return view('pokemon/forums');
 });
 Route::get('/boutique', function () {
-    return view('pokemon/boutique');
+    return view('boutique');
 });
 
 Auth::routes();

@@ -143,15 +143,7 @@
 
 								</div>
 							</header>
-
 						<!-- Banner -->
-							<div id="banner">
-								<h2>Votre site d'actualité 
-								<br />
-								et d'échange de cartes<strong> INTER-JEU</strong></h2>
-								<!-- <p>ACCUEIL</p> -->
-								<!-- <a href="#" class="button large icon fa-check-circle">Yes it does</a> -->
-							</div>
 					</div>
 				</div>
 
