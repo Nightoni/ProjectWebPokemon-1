@@ -17,7 +17,7 @@
             <!-- Start Main Forms -->
             <div class="main-forms">
                 <div class="signup-form">
-                    <form class="sign-back" method="POST" action="form-control{{ route('register') }}">
+                    <form class="sign-back" method="POST" action="{{ route('register') }}">
                         @csrf
                         <h1>Creer un compte</h1>
 
@@ -79,14 +79,12 @@
         <script type="text/javascript" src="{{asset('js/register.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
 <!--         <script src="https://use.fontawesome.com/7dddae9ad9.js"></script> -->
-<!--         <script type="text/javascript" src="main.js"></script> -->
+         <script type="text/javascript" src="main.js"></script>
         <!-- End Scripts -->
     </body>
 </html>
-
 @endsection
-<!-- @section('content')
-<div class="container">
+<!-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -158,5 +156,4 @@
             </div>
         </div>
     </div>
-</div>
-@endsection -->
+</div> -->

@@ -75,6 +75,7 @@
         <!-- End Main Container -->
         <!-- Start Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="{{asset('js/jquery.min.js') }}"></script>
         <script type="text/javascript" src="{{asset('js/login.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
 <!--         <script src="https://use.fontawesome.com/7dddae9ad9.js"></script> -->

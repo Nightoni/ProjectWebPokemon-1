@@ -143,15 +143,7 @@
 
 								</div>
 							</header>
-
 						<!-- Banner -->
-							<div id="banner">
-								<h2>Votre site d'actualité 
-								<br />
-								et d'échange de cartes<strong> INTER-JEU</strong></h2>
-								<!-- <p>ACCUEIL</p> -->
-								<!-- <a href="#" class="button large icon fa-check-circle">Yes it does</a> -->
-							</div>
 					</div>
 				</div>
 
@@ -165,37 +157,6 @@
 										<div id="content">
 
 											<!-- Content -->
-
-												<article>
-													<header class="major">
-														<h3>04 déc. 2018</h3>
-														<h2>Le moment est venu d’en découdre avec Pokémon GO</h2>
-														<p>Pokemon GO</p>
-													</header>
-
-													<span class="image featured"><img src="images/pokemon-go-169.jpg" alt="" /></span>
-
-													<p>Bientôt, vous pourrez défier un autre Dresseur à tout moment dans Pokémon GO. Dans les Combats de Dresseurs, en utilisant un Code Combat,
-														 vous pourrez vous mesurer à un autre Dresseur et lui faire face avec une équipe de trois Pokémon. À la fin du match, les participants 
-														 recevront des récompenses, dont une chance d'obtenir des objets d'Évolution rares. Afin que le combat soit équitable, les Dresseurs 
-														 devront combattre dans la même Ligue Combat de Dresseurs qui détermine le PC le plus élevé des Pokémon participants.
-													Ces combats rapides prennent place en temps réel et vos Pokémon pourront utiliser à la fois leurs Attaques Immédiates et leurs Attaques 
-													Chargées. Vous pourrez également utiliser des Poussières Étoiles et des Bonbons avant le combat pour déverrouiller une Attaque Chargée 
-													supplémentaire pour votre Pokémon.
-													</p>
-
-													<h3>Démontrez vos compétences en affrontant d’autres joueurs dans les nouveaux Combats de Dresseurs de Pokémon GO.</h3>
-													<p>Les combats ne se limitent pas à la force des Pokémon et à leurs attaques. La synchronisation est importante également. Gardez l'œil 
-													sur les attaques de votre adversaire, et vous pourrez peut-être déployer un Bouclier Protecteur pour protéger votre Pokémon de dégâts 
-													critiques. Une fois le nombre de Boucliers Protecteurs à votre disposition épuisé, votre Pokémon sera sans défense contre les grosses attaques.
-													Votre adversaire devra être à proximité pour que vous puissiez commencer un Combat de Dresseurs. Par contre, vous pourrez défier les 
-													Dresseurs avec lesquels vous êtes Excellents amis où que vous soyez.
-													Entrainez-vous avec les capitaines, Spark, Candela et Blanche, pour améliorer vos compétences en Combat de Dresseurs. En vous entraînant 
-													avec les capitaines, vous pourrez gagner des récompenses quotidiennes, dont des Poussières Étoiles qui donneront du punch à votre Pokémon.
-													 Cela vous permettra également de progresser vers la médaille Topdresseur.
-													Commencez votre entraînement et découvrez de nouvelles façons de mettre vos stratégies à l'épreuve dans les Combats de Dresseurs de Pokémon
-													 GO.</p>
-												</article>
 												<article>
 													<header class="major">
 														<h3>03 déc. 2018</h3>
@@ -237,6 +198,29 @@
 														  de terrain afin d'effectuer une Phase d'Étude, et vous ne pourrez gagner qu'un tampon par jour. Des Pokémon rares seront de sortie
 														   en décembre, donc en avant toutes, et capturez-les avant qu'il ne soit trop tard !</p>
 												</article>
+												<article>
+													<header class="major">
+														<h3>20 nov. 2018</h3>
+														<h2>Pokémon, la série est de retour sur Twitch</h2>
+														<p>Pokemon GO</p>
+													</header>
+
+													<span class="image featured"><img src="images/twitch-animation-winter-marathon-169.jpg" alt="" /></span>
+
+													<p>À partir du 22 novembre 2018, Twitch.tv diffusera un marathon en deux parties de Pokémon, la série sur sa chaîne TwitchPresentsFR 
+													pour célébrer les dessins animés Pokémon. Partagez les aventures de Sacha et Pikachu qui parcourent le monde, se font des amis, affrontent
+													 la Team Rocket, et rencontrent toutes sortes de super Pokémon.
+													</p>
+
+													<h3>La chaîne TwitchPresentsFR propose un marathon de dessins animés Pokémon rempli d’épisodes, de films, et bien plus encore !</h3>
+													<p>La première partie du marathon sera diffusée du 22 novembre au 2 décembre et présentera les deux premières saisons de la série animée
+													 : Pokémon : La Ligue Indigo et Pokémon : Les Îles Oranges. Un film Pokémon sera également diffusé chaque jour, et au fil du marathon, 
+													 vous aurez l'occasion de voir Pokémon Générations, Pokémon Chronicles, et Pokémon : les origines, des séries animées en plusieurs parties.</p>
+													 <p>Le marathon reprendra le 24 décembre et se terminera le 3 janvier 2019. Cette deuxième partie se focalisera sur Pokémon : Voyage à Johto, 
+													 Pokémon : Les Champions de Johto, et Pokémon : la Quête Ultime (les saisons 3 à 5 de Pokémon, la série). Comme pour la première partie, un 
+													 film Pokémon sera diffusé chaque jour. Ce programme est sujet à changement. Consultez Twitch.tv pour les dernières nouvelles. 
+													 Bonne diffusion !</p>
+												</article>
 
 										</div>
 									</div>
@@ -257,7 +241,7 @@
 
 												<section>
 													<header class="major">
-														<h2>Notre Boutique</h2>
+														<h2>Offres Boutique</h2>
 													</header>
 													<ul class="style2">
 														<li><a href="#">Rowlet [Fury Attack]</a></li>

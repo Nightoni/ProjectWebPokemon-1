@@ -143,15 +143,7 @@
 
 								</div>
 							</header>
-
 						<!-- Banner -->
-							<div id="banner">
-								<h2>Votre site d'actualité 
-								<br />
-								et d'échange de cartes<strong> INTER-JEU</strong></h2>
-								<!-- <p>ACCUEIL</p> -->
-								<!-- <a href="#" class="button large icon fa-check-circle">Yes it does</a> -->
-							</div>
 					</div>
 				</div>
 				<!-- Main Wrapper -->
@@ -250,7 +242,7 @@
 
 												<section>
 													<header class="major">
-														<h2>Notre Boutique</h2>
+														<h2>Offres Boutique</h2>
 													</header>
 													<ul class="style2">
 														<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
@@ -264,7 +256,7 @@
 														<li><a href="#">Semper mod quisturpis nisi</a></li>
 													</ul>
 													<footer>
-														<a href="{{ url('/boutique') }}" class="button icon fa-arrow-circle-o-right">Boutique</a>
+														<a href="{{ url('/boutique') }}" class="button icon fa-arrow-circle-o-right">Allez à la Boutique</a>
 													</footer>
 												</section>
 

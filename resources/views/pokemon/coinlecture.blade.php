@@ -143,15 +143,7 @@
 
 								</div>
 							</header>
-
-						<!-- Banner -->
-							<div id="banner">
-								<h2>Votre site d'actualité 
-								<br />
-								et d'échange de cartes<strong> INTER-JEU</strong></h2>
-								<!-- <p>ACCUEIL</p> -->
-								<!-- <a href="#" class="button large icon fa-check-circle">Yes it does</a> -->
-							</div>
+						<!-- Banner -->	
 					</div>
 				</div>
 
@@ -164,7 +156,7 @@
 									<div class="col-8 col-12-medium">
 										<!-- Article list -->
 											<section class="box article-list">
-												<h2 class="icon fa-file-text-o">Actualités</h2>
+												<h2 class="icon fa-file-text-o">Livres</h2>
 
 												<!-- Excerpt -->
 													<article class="box excerpt">
@@ -177,7 +169,6 @@
 															<p>Un nouveau tournoi aura lieu à Bordeaux le week end du 1 et 2 decembre rassemblant différents jeux : Pokemon, ...</p>
 														</div>
 													</article>
-
 												<!-- Excerpt -->
 													<article class="box excerpt">
 														<a href="#" class="image left"><img src="images/pic05.jpg" alt="" /></a>
@@ -191,7 +182,90 @@
 															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
 														</div>
 													</article>
+												<!-- Excerpt -->
+													<article class="box excerpt">
+														<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
+														<div>
+															<header>
+																<span class="date">22 NOV.</span>
+																<h3><a href="#">Nouvelle version de cartes Pokemon</a></h3>
+															</header>
+															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+														</div>
+													</article>
 
+											</section>
+											<section class="box article-list">
+												<h2 class="icon fa-file-text-o">Magazines</h2>
+
+												<!-- Excerpt -->
+													<article class="box excerpt">
+														<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
+														<div>
+															<header>
+																<span class="date">30 NOV.</span>
+																<h3><a href="#">Nouveau tournoi</a></h3>
+															</header>
+															<p>Un nouveau tournoi aura lieu à Bordeaux le week end du 1 et 2 decembre rassemblant différents jeux : Pokemon, ...</p>
+														</div>
+													</article>
+												<!-- Excerpt -->
+													<article class="box excerpt">
+														<a href="#" class="image left"><img src="images/pic05.jpg" alt="" /></a>
+														<div>
+															<header>
+																<span class="date">25 NOV.</span>
+																<h3><a href="#">Un millier d'inscrit. Merci à vous</a></h3>
+															</header>
+															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+														</div>
+													</article>
+												<!-- Excerpt -->
+													<article class="box excerpt">
+														<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
+														<div>
+															<header>
+																<span class="date">22 NOV.</span>
+																<h3><a href="#">Nouvelle version de cartes Pokemon</a></h3>
+															</header>
+															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+														</div>
+													</article>
+
+											</section>
+											<section class="box article-list">
+												<h2 class="icon fa-file-text-o">Divers</h2>
+
+												<!-- Excerpt -->
+													<article class="box excerpt">
+														<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
+														<div>
+															<header>
+																<span class="date">30 NOV.</span>
+																<h3><a href="#">Nouveau tournoi</a></h3>
+															</header>
+															<p>Un nouveau tournoi aura lieu à Bordeaux le week end du 1 et 2 decembre rassemblant différents jeux : Pokemon, ...</p>
+														</div>
+													</article>
+												<!-- Excerpt -->
+													<article class="box excerpt">
+														<a href="#" class="image left"><img src="images/pic05.jpg" alt="" /></a>
+														<div>
+															<header>
+																<span class="date">25 NOV.</span>
+																<h3><a href="#">Un millier d'inscrit. Merci à vous</a></h3>
+															</header>
+															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+														</div>
+													</article>
 												<!-- Excerpt -->
 													<article class="box excerpt">
 														<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
@@ -209,28 +283,6 @@
 											</section>
 									</div>
 									<div class="col-4 col-12-medium">
-
-										<!-- Spotlight -->
-											<section class="box spotlight">
-												<h2 class="icon fa-file-text-o">Notre Actu</h2>
-												<article>
-													<a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
-													<header>
-														<h3><a href="#">Choisir le compte Premium</a></h3>
-														<p>Les avantages que cela représente</p>
-													</header>
-													<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
-													quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
-													lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
-													et tempus consequat etiam.</p>
-													<p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
-													mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
-													<footer>
-														<a href="#" class="button alt icon fa-file-o">Lire l'article</a>
-													</footer>
-												</article>
-											</section>
-
 									</div>
 								</div>
 							</div>
