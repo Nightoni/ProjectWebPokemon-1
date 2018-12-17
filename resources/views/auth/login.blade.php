@@ -1,20 +1,12 @@
 @extends('layouts.app')
 @section('pageTitle', 'Page Title')
 @section('content')
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>App Name - @yield('title')</title>
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link href="{{ asset('css/login.css') }}" rel="stylesheet">
-    </head>
-    <body>
+
         <!-- <audio autoplay>
             <source src="http://s2.3lbh.com/s/87EJ97gi.mp3" type="audio/mpeg">
             Votre navigateur ne supporte pas le son de cette page.
         </audio> -->
-        <!-- Start Main Container -->
-        <div class="main-container">
+        <!-- Start Main Container --> 
             <!-- Start Pokemon Ball Top Part -->
             <div class="pokemon-top-part"></div>
             <!-- End Pokemon Ball Top Part -->
@@ -81,8 +73,7 @@
 <!--         <script src="https://use.fontawesome.com/7dddae9ad9.js"></script> -->
 <!--         <script type="text/javascript" src="main.js"></script> -->
         <!-- End Scripts -->
-    </body>
-</html>
+
 
 @endsection
 <!-- @section('content')

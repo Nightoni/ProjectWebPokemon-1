@@ -22,9 +22,13 @@ Route::get('/', function () {
 Route::get('/pk/accar', function () {
     return view('pokemon/actucartes');
 });
-Route::get('/pk/li', function () {
-    return view('pokemon/listecartes');
-});
+// Route::get('/pk/li', function () {
+//     return view('pokemon/listecartes');
+// });
+
+    
+    Route::get('/pk/li', 'Pokemon\ListeCarteController@index');
+    
 Route::get('/pk/top', function () {
     return view('pokemon/topcartes');
 });
