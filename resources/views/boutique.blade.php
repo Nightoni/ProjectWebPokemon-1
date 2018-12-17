@@ -260,7 +260,7 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
                                 Trier par &nbsp;
-      <span class="caret"></span>
+                            <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Prix croissant</a></li>
@@ -281,7 +281,7 @@
                             <img src="images/card1.jpg" alt="" />
                             <div class="caption">
                                 <h3><a href="#">Pokemon Nouveau deck </a></h3>
-                                <p>Price : <strong>15€</strong>  </p>
+                                <p>Prix: <strong>15€</strong>  </p>
                                 <p><a href="#">COLLECTION SUN & MOON </a></p>
                                 <p>La derniére version des cartes tant attendues est disponible</p>
                                 <p><a href="#" class="btn btn-success" role="button">Ajouter au panier</a> <a href="#" class="btn btn-primary" role="button">Details</a></p>
@@ -294,7 +294,7 @@
                             <img src="images/magic1.png" alt="" />
                             <div class="caption">
                                 <h3><a href="#">Magic Collection <br>Izzet </a></h3>
-                                <p>Price : <strong>19,99€</strong>  </p>
+                                <p>Prix: <strong>19,99€</strong>  </p>
                                 <p><a href="#">COLLECTION IZZET </a></p>
                                 <p>La collection IZZET est enfin disponible en France</p>
                                 <p><a href="#" class="btn btn-success" role="button">Ajouter au panier</a> <a href="#" class="btn btn-primary" role="button">Details</a></p>
@@ -307,7 +307,7 @@
                             <img src="images/magic2.jpg" alt="" />
                             <div class="caption">
                                 <h3><a href="#">Magic Starter <br>Pack </a></h3>
-                                <p>Price : <strong>25€</strong>  </p>
+                                <p>Prix: <strong>25€</strong>  </p>
                                 <p><a href="#">COLLECTION TEREKI </a></p>
                                 <p>Pack Starter de la derniére collection de cartes TEREKI</p>
                                 <p><a href="#" class="btn btn-success" role="button">Ajouter au panier</a> <a href="#" class="btn btn-primary" role="button">Details</a></p>
@@ -364,7 +364,7 @@
                             <img src="images/good1.jpg" alt="" />
                             <div class="caption">
                                 <h3><a href="#">Bob Pokemon </a></h3>
-                                <p>Price : <strong>12€</strong>  </p>
+                                <p>Prix : <strong>12€</strong>  </p>
                                 <p><a href="#">Ptional dismiss button </a></p>
                                 <p>Ptional dismiss button in tional dismiss button in   </p>
                                 <p>
@@ -380,7 +380,7 @@
                             <img src="images/good2.jpg" alt="" />
                             <div class="caption">
                                 <h3><a href="#">Peluche Pikachu</a></h3>
-                                <p>Price : <strong>32€</strong>  </p>
+                                <p>Prix : <strong>32€</strong>  </p>
                                 <p><a href="#">Ptional dismiss button </a></p>
                                 <p>Ptional dismiss button in tional dismiss button in   </p>
                                 <p><a href="#" class="btn btn-success" role="button">Ajouter au panier</a> <a href="#" class="btn btn-primary" role="button">Details</a></p>
@@ -393,7 +393,7 @@
                             <img src="images/good3.jpg" alt="" />
                             <div class="caption">
                                 <h3><a href="#">Portefeuille Pikachu</a></h3>
-                                <p>Price : <strong>7€</strong>  </p>
+                                <p>Prix : <strong>7€</strong>  </p>
                                 <p><a href="#">Ptional dismiss button </a></p>
                                 <p>Ptional dismiss button in tional dismiss button in   </p>
                                 <p><a href="#" class="btn btn-success" role="button">Ajouter au panier</a> <a href="#" class="btn btn-primary" role="button">Details</a></p>
