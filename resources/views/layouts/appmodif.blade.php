@@ -20,13 +20,7 @@
     <!-- Styles -->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<<<<<<< HEAD
-    
-           <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link href="{{ asset('css/login.css') }}" rel="stylesheet">
-=======
     @stack('css')
->>>>>>> 329f77ae71440ca3169cc10f9a54861b8ba15045
 </head>
 <body>
     <div id="app">
@@ -49,44 +43,41 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Me connecter') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            @if (Route::has('register'))
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Créer un compte') }}</a>
-                            @endif
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Me connecter') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                @if (Route::has('register'))
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Créer un compte') }}</a>
+                                @endif
+                            </li>
                         @else
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->name }} <span class="caret"></span>
-                            </a>
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
 
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{{ url('/espaceperso') }}">{{ __('Mon Compte') }}</a>    
                                 <a class="dropdown-item" href="{{ route('logout') }}"
-                                onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
-                            </a>
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
 
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                @csrf
-                            </form>
-                        </div>
-                    </li>
-                    @endguest
-                </ul>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
+                </div>
             </div>
-
-        </div>
-    </nav>
-    @include('layouts.menu')
-    <main class="py-4">
-        @yield('content')
-    </main>
-</div>
-
+        </nav>
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
 </body>
 </html>

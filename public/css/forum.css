@@ -152,7 +152,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.35em;
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 	b, strong {
@@ -1220,6 +1220,13 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 5em;
+	}
+	.art {
+		margin-bottom: 5em;
+/* 		border-style: solid; */
+		border-style: outset;
+		border-width: 5px;
+		text-align: center;
 	}
 
 	section > :last-child,
@@ -2306,6 +2313,7 @@ input, select, textarea {
 
 			section, article {
 				margin-bottom: 3em;
+
 			}
 
 		/* Image */

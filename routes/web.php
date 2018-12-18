@@ -50,6 +50,9 @@ Route::get('/pk/fo', function () {
 Route::get('/boutique', function () {
     return view('boutique');
 });
+Route::get('/espaceperso', function () {
+    return view('espaceperso');
+});
 
 Auth::routes();
 
