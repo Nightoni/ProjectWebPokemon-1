@@ -1,8 +1,8 @@
 @extends('layouts.espaceperso')
 @section('pageTitle', 'Page Title')
 @push('css')
-<link href="{{ asset('css/mainperso.css') }}" rel="stylesheet">
-<meta name="csrf-token" content="{{ csrf_token() }}">
+	<link href="{{ asset('css/mainperso.css') }}" rel="stylesheet">
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 @endpush
 @csrf
 <!DOCTYPE HTML>
@@ -11,8 +11,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
-<head>
 	<!-- Header -->
 	<div id="header">
 		<div class="top">
@@ -265,6 +263,7 @@
 			</div>
 		</section>
 	</div>
+	</div>
 	<script src="{{asset('js/espaceperso/jquery.min.js') }}"></script>
 	<script src="{{asset('js/espaceperso/jquery.scrolly.min.js') }}"></script>
 	<script src="{{asset('js/espaceperso/jquery.scrollex.min.js') }}"></script>
@@ -272,6 +271,4 @@
 	<script src="{{asset('js/espaceperso/breakpoints.min.js') }}"></script>
 	<script src="{{asset('js/espaceperso/util.js') }}"></script>
 	<script src="{{asset('js/espaceperso/main.js') }}"></script>
-</body>
-</html>
 
