@@ -20,9 +20,11 @@
     <!-- Styles -->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <link href="{{ asset('css/menu.css') }}" rel="stylesheet">
     <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
     @stack('css')
+
 </head>
 <body>
     <div id="app">
@@ -75,6 +77,7 @@
                     @endguest
                 </ul>
             </div>
+
         </div>
     </nav>
     @include('layouts.menu')
@@ -83,5 +86,6 @@
     </main>
         @include('layouts.footer')
 </div>
+
 </body>
 </html>

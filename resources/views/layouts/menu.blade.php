@@ -1,6 +1,3 @@
-@push('css')
-<link href="{{ asset('css/menu.css') }}" rel="stylesheet">
-@endpush
 <div id="header-wrapper">
     <div class="container">
         <!-- Header -->

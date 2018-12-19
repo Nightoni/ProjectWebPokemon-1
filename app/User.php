@@ -28,6 +28,4 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-/*     protected $cards;
-    public function getCards() */
 }
