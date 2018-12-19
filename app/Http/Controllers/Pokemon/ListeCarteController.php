@@ -3,64 +3,31 @@ namespace App\Http\Controllers\Pokemon;
 
 use App\Http\Controllers\Controller;
 use Pokemon\Pokemon;
+use App\Models\Block;
 
 class ListeCarteController extends Controller
 {
 
-    public function index()
+    public function seriesPokemon()
     {
 
-        // $sets = Pokemon::Set()->all();
-
-        // foreach ($sets as $model) {
-        // // print_r($model->toArray());
-        // print_r($model->toJson());
-        // }
-        $cardArray = [];
-        foreach ($user->getCards() as $card) {
-            $cardArray[] = Pokemon::Card()->where([
-                'id' => $card->id,
-                'series' => 'SM',
-            ]);
-            
-        }
-        
-        return $cardArray;
-      
-        // $response = Pokemon::Card()->all();
-        // foreach ($response as $model) {
-        // // print_r($model->toArray());
-        // print_r($model->toJson());
-        // }
-        // $cards = Pokemon::Card()->where([
-        // 'page' => 5,
-        // 'pageSize' => 200
-        // ])->all();
-
-        // foreach ($cards as $model) {
-        // // print_r($model->toArray());
-        // print_r($model->toJson());
-        // }
-
-        // $cards = Pokemon::Card()->where([
-        // 'set' => 'generations'
-        // ])
-        // ->where([
-        // 'supertype' => 'pokemon'
-        // ])
-        // ->all();
-
-        // $sets = Pokemon::Set()->all();
-        // $cards = [];
-        // foreach ($sets as $set) {
-        // $cards[$set->getName()] = Pokemon::Card()->where([
-        // 'set' => $set->getName(),
-        // 'pageSize' => 1000
-
-        // ])->all();
-        // }
-
-        // $true = true;
-        // var_dump($true);
+        $blocks = Block::where('univers', 'Pokemon')->orderBy('id')->get();
+        return view('pokemon/liste-cartes-series', ['blocks' => $blocks]);
     }
+    
+    public function setsPokemon($id) {
+        
+        $block = Block::where('id' , $id)->first();
+        $sets = Pokemon::Set()->where(['series' => $block->name])->all();
+        return view('pokemon/liste-cartes-sets', ['sets' => $sets]);
+    }
+    
+    public function cardsPokemon($id) {
+        
+        $cards = Pokemon::Card()->where(['setCode' => $id])->all();
+       
+        return view('pokemon/liste-cartes', ['cards' => $cards]);
+    }
+    
+    
 }

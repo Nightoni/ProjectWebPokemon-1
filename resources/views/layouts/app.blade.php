@@ -20,13 +20,9 @@
     <!-- Styles -->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<<<<<<< HEAD
-    
-           <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link href="{{ asset('css/login.css') }}" rel="stylesheet">
-=======
+
     @stack('css')
->>>>>>> 329f77ae71440ca3169cc10f9a54861b8ba15045
+
 </head>
 <body>
     <div id="app">

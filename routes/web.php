@@ -27,7 +27,9 @@ Route::get('/pk/accar', function () {
 // });
 
     
-    Route::get('/pk/li', 'Pokemon\ListeCarteController@index');
+    Route::get('/pk/li', 'Pokemon\ListeCarteController@seriesPokemon');
+    Route::get('/pk/li/block/{id}', 'Pokemon\ListeCarteController@setsPokemon');
+    Route::get('/pk/li/set/{code}', 'Pokemon\ListeCarteController@cardsPokemon');
     
 Route::get('/pk/top', function () {
     return view('pokemon/topcartes');
