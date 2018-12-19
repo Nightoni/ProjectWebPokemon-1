@@ -1,5 +1,5 @@
-@extends('layouts.app')
-
+@extends('layouts.appmodif')
+@section('pageTitle', 'Page Title')
 @section('content')
 <html>
     <head>

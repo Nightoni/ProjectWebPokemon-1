@@ -52,8 +52,20 @@ Route::get('/pk/fo', function () {
 Route::get('/boutique', function () {
     return view('boutique');
 });
-Route::get('/espaceperso', function () {
-    return view('espaceperso');
+Route::get('/persouser', function () {
+    return view('persouser');
+});
+Route::get('/persoff', function () {
+    return view('persoff');
+});
+Route::get('/persomagic', function () {
+    return view('persomagic');
+});
+Route::get('/persopok', function () {
+    return view('persopok');
+});
+Route::get('/persoyugi', function () {
+    return view('persoyugi');
 });
 
 Auth::routes();

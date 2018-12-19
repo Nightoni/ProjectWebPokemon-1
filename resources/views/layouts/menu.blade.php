@@ -1,7 +1,3 @@
-
-@push('css')
-   <link href="{{ asset('css/main.css') }}" rel="stylesheet">
-@endpush
 <div id="header-wrapper">
     <div class="container">
         <!-- Header -->
